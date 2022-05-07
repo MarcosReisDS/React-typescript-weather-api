@@ -18,4 +18,8 @@ permita o uso da localização atual para consumo da api de clima com a sua loca
 5. HTML
 6. CSS
 
+# PREVIEW PROJECT
+![Screenshot](screenshot.png)
+
+
 
