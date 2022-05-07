@@ -1,0 +1,126 @@
+* {
+    color: #E7E7EB;
+}
+
+.center-page {
+    width: 70%;
+    padding: 40px 10%;
+}
+
+
+.center-page .temperature-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.center-page .temperature-buttons .degree-button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: #6E707A;
+
+}
+
+.center-page .temperature-buttons .degree-button-active {
+    background-color: #E7E7EB;
+    color: #6E707A;
+    transition: .4s;
+}
+
+.center-page .temperature-buttons .degree-button:hover {
+    opacity: .6;
+    cursor: pointer;
+
+}
+
+.center-page .weather-forecast {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.center-page .weather-forecast .all {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #1E213A;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.center-page .weather-forecast .date-degrees {
+    font-size: 9pt;
+}
+
+.center-page .weather-forecast .img-temp img {
+    width: 80%;
+}
+
+.center-page .weather-forecast .c-degrees {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.center-page .weather-forecast .c-degrees span{
+    font-size: 10pt;
+}
+
+
+
+.center-page .weather-forecast .all .img-temp {
+    padding: 20px 10px;
+}
+
+.center-page .title-highlight {
+    width: 100%;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+.center-page .today-highlights {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.center-page .today-highlights .highlights {
+    background-color: #1E213A;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.center-page .today-highlights .highlights .name-highlight {
+    font-size: 10pt;
+}
+.center-page .today-highlights .highlights .status-highlight {
+    font-size: 20pt;
+}
+
+.center-page .today-highlights .highlights .status-highlight strong {
+    font-size: 40pt;
+}
+
+.center-page .today-highlights .highlights .wsw-highlight {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+    
+
+
+
+

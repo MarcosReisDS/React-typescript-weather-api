@@ -1,0 +1,33 @@
+.container-charge-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-charge-bar .indicators {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-charge-bar .indicators span {
+    font-size: 12px;
+}
+
+
+.container-charge-bar .charge-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #dedede;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.container-charge-bar .charge-bar div {
+    height: 100%;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+

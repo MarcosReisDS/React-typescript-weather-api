@@ -1,0 +1,66 @@
+.menu-lateral {
+    width: 30%;
+    height: 100vh;
+    background-color: #1E213A;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-lateral .container-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-lateral .container-buttons .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: #6E707A;
+    color: #fff;
+}
+
+.menu-lateral .container-buttons .search-button:hover {
+    opacity: .6;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.menu-lateral .container-buttons .location-button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: #6E707A;
+    color: #fff;
+}
+
+.menu-lateral .container-buttons .location-button:hover {
+    opacity: .6;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.menu-lateral .fig-temperatura {
+    width: 40%;
+    margin-top: 70px;
+}
+
+.menu-lateral .graus {
+    font-size: 40pt;
+}
+
+.menu-lateral .descricao-graus {
+    margin-top: 20px;
+    font-size: 20pt
+}
