@@ -9,13 +9,13 @@ allow use of current location
 permita o uso da localização atual para consumo da api de clima com a sua localização 
 
 # TECHNOLOGIES:
-React
-Typescript
-Contexts API
+1. React
+2. Typescript
+3. Contexts API
  
-Object orientation
+4. Object orientation
 
-HTML
-CSS
+5. HTML
+6. CSS
 
 
